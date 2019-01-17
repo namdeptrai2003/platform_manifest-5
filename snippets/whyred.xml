@@ -6,8 +6,6 @@
 	<remote name="gitlab"
           fetch="https://gitlab.com/" />
 
-
- 
   <!-- Extras -->
 
   <project path="vendor/MiuiCamera" name="kapiljhajhria/vendor_MiuiCamera" 
