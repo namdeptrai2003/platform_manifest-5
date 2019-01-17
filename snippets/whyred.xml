@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="gt"
+          fetch="https://github.com/" />
+	<remote name="gitlab"
+          fetch="https://gitlab.com/" />
+
+
+ 
+  <!-- Extras -->
+
+  <project path="vendor/MiuiCamera" name="kapiljhajhria/vendor_MiuiCamera" 
+remote="gt" revision="pie-whyred"/>
+ <!-- My device tree -->
+   <project path="vendor/xiaomi/whyred" name="namdeptrai2003/android_vendor_xiaomi_whyred" 
+remote="gt" revision="lineage-16.0"/>
+   <project path="kernel/xiaomi/whyred" name="namdeptrai2003/android_kernel_xiaomi_whyred" 
+remote="gt" revision="lineage-16.0"/>
+   <project path="device/xiaomi/whyred" name="namdeptrai2003/android_device_xiaomi_whyred" 
+remote="gt" revision="rr-pie"/>
+   <project path=" packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" 
+remote="gt" revision="lineage-16.0"/>
+
+<!-- FDE -->
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" 
+remote="gt" revision="lineage-16.0"/>
+  
+
+</manifest>
